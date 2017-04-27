@@ -1,6 +1,6 @@
 # npmtest-wreck
 
-#### test coverage for  [wreck (v12.0.0)](https://github.com/hapijs/wreck#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-wreck.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-wreck) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-wreck.svg)](https://travis-ci.org/npmtest/node-npmtest-wreck)
+#### basic test coverage for  [wreck (v12.1.0)](https://github.com/hapijs/wreck#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-wreck.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-wreck) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-wreck.svg)](https://travis-ci.org/npmtest/node-npmtest-wreck)
 
 #### HTTP Client Utilities
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-wreck/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-wreck/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-wreck/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-wreck/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-wreck/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-wreck/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-wreck/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-wreck/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-wreck/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-wreck/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-wreck/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-wreck/build/coverage.html/index.html)
 
@@ -50,13 +50,13 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "952684ae83815189f1b3ff4dbdfe2e63d3b65507",
-        "tarball": "https://registry.npmjs.org/wreck/-/wreck-12.0.0.tgz"
+        "shasum": "01e4fa5bd667afb5e5921748d9adb9bf903dc5da",
+        "tarball": "https://registry.npmjs.org/wreck/-/wreck-12.1.0.tgz"
     },
     "engines": {
         "node": ">=4.0.0"
     },
-    "gitHead": "73e25e8f06185e07af4c5a32add7b41c18f9d200",
+    "gitHead": "34e5a8ed7ae86c24a955c0fad898383d4245c802",
     "homepage": "https://github.com/hapijs/wreck#readme",
     "keywords": [
         "utilities",
@@ -68,6 +68,12 @@
     "maintainers": [
         {
             "name": "hueniverse"
+        },
+        {
+            "name": "marsup"
+        },
+        {
+            "name": "nlf"
         },
         {
             "name": "wyatt"
@@ -83,7 +89,8 @@
         "test": "lab -t 100 -L -a code",
         "test-cov-html": "lab -r html -o coverage.html -a code"
     },
-    "version": "12.0.0"
+    "version": "12.1.0",
+    "bin": {}
 }
 ```
 
